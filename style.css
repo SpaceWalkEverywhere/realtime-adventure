@@ -3,6 +3,7 @@
     width: 50%;
     margin: 20px;
     box-shadow:  5px 5px 5px #999999;
+    margin-top:80px;
 }
 .head-div{
     float: none;
@@ -18,4 +19,26 @@
 }
 .orange{
     color: orange;
+}
+.result{
+    box-shadow: 5px 5px 5px #999999;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cf{
+    font-size: 20px;
+    position: fixed;
+    color: #ffffff;
+    top: 0;
+    width: 100%;
+    background-color: #999;
+    line-height: 3;
+    z-index: 10000;
+}
+canvas{
+    margin-top: 50px;
+    margin-bottom:100px;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px lightblue;
 }
