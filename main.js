@@ -20,6 +20,9 @@ function grrr(error,res){
         console.error(error);
     }
     else{
-     console.log(res);   
+     console.log(res);  
+     document.getElementById('res-acc').innerHTML=res[0].confidence;
+     document.getElementById('res-obj').innerHTML=res[0].label;
     }
 }
+
