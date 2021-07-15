@@ -10,7 +10,7 @@ function setup(){
 }
 function draw(){
     image(cam,0,0,350,300);
-    classify.Classify(cam,grrr);
+    classify.classify(cam,grrr);
 }
 function modlod(){
     console.log("model is loaded");
